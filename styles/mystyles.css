@@ -1,0 +1,38 @@
+body{
+    background-color: rgb(230, 223, 214);
+}
+.contact{
+    text-align:center;
+}
+.contact-links .facebook-email a{
+    color: navy;
+}
+.section-padding{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+iframe{
+    width: 100%;
+    height: auto;
+    min-height: 315px;
+}
+.top{
+    position:fixed;
+    bottom: 5px; right: 10px;
+}
+.anthro{
+    text-align: center; display: block;
+    margin-bottom: 10px;
+    color: rgb(9, 57, 9);
+}
+#interests ol li{
+    margin-bottom: 10px;
+}
+h1{
+    font-size: 2rem !important;
+}
+@media screen and (min-width: 992px){
+    h1{
+        font-size: 3rem !important;
+    }
+}

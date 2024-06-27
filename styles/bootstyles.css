@@ -1,0 +1,98 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+} 
+
+nav a {
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: black;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.tableau-content h1 {
+    text-align: center;
+}
+
+footer {
+    padding: 20px 0;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+footer ul li {
+    margin-right: 10px;
+}
+
+footer ul li a {
+    color: #212529;
+}
+
+footer .copyright{ 
+    text-align: center;
+    color: #6c757d !important;
+    display: block;
+}
+
+.top{
+    position:fixed;
+    bottom: 5px; right: 10px;
+}
+
+.tableau-dashboards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tableau-dashboards .dashboard {
+    width: calc(100%/2 - 20px);
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.tableau-dashboards .dashboard p{
+    background-color: rgb(175, 175, 174);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+@media screen and (max-width: 992px) {
+    .tableau-dashboards .dashboard{
+        width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}

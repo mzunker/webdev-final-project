@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau</title>
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="../styles/bootstyles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation-->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="../index.html">Megan Zunker</a>
+
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="../html/about.html">About</a></li>
+                    <li><a href="../html/tableau.html">Tableau</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <section class="tableau">
+        <div class="container">
+            <div class="tableau-content">
+                <h1>Tableau Dashboards</h1>
+                <div class="tableau-dashboards">
+                    <div class="dashboard">
+                        <script type='module'
+                            src='https://10ay.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script>
+                        <tableau-viz id='tableau-viz'
+                            src='https://10ay.online.tableau.com/t/mzunkerd729af3741/views/webdevtableau/StateData/fee5f8fe-cfac-42d2-840c-afe30426b3a4/2ed920f9-3bc3-476b-9940-8949527ceda6'
+                            width='1496' height='850' hide-tabs toolbar='bottom'></tableau-viz>
+                            <p>This graph shows the profit in each state</p>
+                    </div>
+
+                    <div class="dashboard">
+                        <script type='module'
+                            src='https://10ay.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script>
+                        <tableau-viz id='tableau-viz'
+                            src='https://10ay.online.tableau.com/t/mzunkerd729af3741/views/webdevtableau/Newyorkprofit'
+                            width='1496' height='850' hide-tabs toolbar='bottom'></tableau-viz>
+                            <p>This graph shows how each product is doing in New York</p>
+                    </div>
+
+                    <div class="dashboard">
+                        <script type='module'
+                            src='https://10ay.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script>
+                        <tableau-viz id='tableau-viz'
+                            src='https://10ay.online.tableau.com/t/mzunkerd729af3741/views/webdevtableau/NewyorkProductCategory'
+                            width='1496' height='850' hide-tabs toolbar='bottom'></tableau-viz>
+                            <p>This graph shows the profit per category in New York</p>
+                    </div>
+
+                    <div class="dashboard">
+                        <script type='module'
+                            src='https://10ay.online.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js'></script>
+                        <tableau-viz id='tableau-viz'
+                            src='https://10ay.online.tableau.com/t/mzunkerd729af3741/views/webdevtableau/Forecast'
+                            width='1496' height='850' hide-tabs toolbar='bottom'></tableau-viz>
+                            <p>This graph shows the forecast in New York profit through November 2015</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer-->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <ul>
+                    <li>
+                        <a href="https://twitter.com" target="_blank">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://facebook.com" target="_blank">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com" target="_blank">
+                            <span class="fa-stack fa-lg">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="copyright">Copyright &copy; Megan Zunker 2024</div>
+                <a href="#top" class="top">Back to top</a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
